@@ -1,0 +1,21 @@
+{
+  "name": "portf-lio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "test.js",
+  "scripts": {
+    "dev": "npx concurrently \"cd backend && npm run start:dev\" \"cd frontend && npm run dev\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MaiaraSanto/Portf-lio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/MaiaraSanto/Portf-lio/issues"
+  },
+  "homepage": "https://github.com/MaiaraSanto/Portf-lio#readme"
+}
