@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Teste de Chat - n8n no Fly.io</title>
+  </head>
+  <body>
+    <h2>Enviar mensagem para o Webhook do n8n</h2>
+    <form action="https://portf-lio.fly.dev/webhook/chat" method="POST">
+      <label for="chatId">Chat ID:</label><br />
+      <input type="text" id="chatId" name="chatId" value="123456" /><br /><br />
+
+      <label for="mensagem">Mensagem:</label><br />
+      <input type="text" id="mensagem" name="mensagem" value="oi" /><br /><br />
+
+      <input type="submit" value="Enviar Mensagem" />
+    </form>
+  </body>
+</html>
